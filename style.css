@@ -44,7 +44,7 @@ td {
 tr {
     height: 200px;
   background-color: green; /* For browsers that do not support gradients */
-  background-image: linear-gradient(green, black);
+  background-image: linear-gradient(rgb(46, 95, 46), black);
   opacity: 90%;
 }
 
