@@ -1,0 +1,69 @@
+
+html,  body {
+    background: url("hogwarts_ground.jpg");
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headline {
+    font-size: 400%;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 10px 10px 10px black;
+    
+}
+
+caption {
+    font-size: 300%;
+    font-family: "Brush Script MT", cursive;
+    text-shadow: 10px 10px 10px black;
+}
+
+th {
+    font-size: 100%;
+    text-shadow: 10px 10px 10px black;
+}
+
+td {
+    font-size: 100%;
+}
+
+tr {
+    height: 200px;
+  background-color: green;; /* For browsers that do not support gradients */
+  background-image: linear-gradient(green, black);
+}
+
+
+table, th, td {
+    border: 2px solid darkgreen;
+    text-align: center;
+    
+}
+
+a:hover {
+    color: red;
+
+}
+
+a {
+  font-size: 80%; 
+  color: white; 
+}
+
+.heading-size {
+    font-family: Georgia, serif;
+    font-size: 105%;
+    text-shadow: 10px 10px 10px black;
+
+}
+
+
