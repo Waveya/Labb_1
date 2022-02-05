@@ -1,12 +1,17 @@
 
 html,  body {
-    background: url("hogwarts_ground.jpg");
+    background-image: url("hogwarts_groundd.bmp");
     background-size: cover;
+    background-repeat: no-repeat;
     max-width: 100%;
     overflow-x: hidden;
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    margin: auto; 
+    
 }
 
 table {
@@ -38,8 +43,9 @@ td {
 
 tr {
     height: 200px;
-  background-color: green;; /* For browsers that do not support gradients */
+  background-color: green; /* For browsers that do not support gradients */
   background-image: linear-gradient(green, black);
+  opacity: 90%;
 }
 
 
